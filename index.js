@@ -4,7 +4,7 @@ const userModel = require("./models/user");
 const initData = require("./utils");
 
 mongoose
-  .connect("mongodb://192.168.186.130:27017/work", {})
+  .connect("mongodb://34.69.124.57:27017/work", {})
   .then(() => {
     console.log("Database Connected");
     initData();
