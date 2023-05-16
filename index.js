@@ -14,6 +14,10 @@ mongoose
 const app = express();
 
 app.get("/", async (req, res) => {
+  res.send({ msg: "hello" });
+});
+
+app.get("/users", async (req, res) => {
   const data = await userModel.find();
   res.send({ msg: "success", data });
 });
