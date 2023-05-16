@@ -22,4 +22,4 @@ app.get("/users", async (req, res) => {
   res.send({ msg: "success", data });
 });
 
-app.listen(8008, () => console.log("express is work"));
+app.listen(3000, () => console.log("express is work"));
