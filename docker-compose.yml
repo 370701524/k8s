@@ -10,7 +10,7 @@ services:
     container_name: nodejs
     restart: unless-stopped
     ports: 
-      - "8080:8080"
+      - "3000:3000"
     # 本次新增的
     depends_on:
       - db
