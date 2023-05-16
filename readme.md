@@ -15,7 +15,9 @@ https://console.cloud.google.com/kubernetes/list/overview?cloudshell=false&proje
 https://console.cloud.google.com/monitoring/dashboards/builder/88e34d8d-d92a-45db-892e-1d36863a63d1;duration=PT1H?hl=zh-cn&project=sit323-23t1-huang-32449e6
 
 
+日志链接
 
+https://console.cloud.google.com/logs/query;query=--Hide%20similar%20entries%0A-%2528protoPayload.methodName%3D%22io.k8s.coordination.v1.leases.update%22%2529%0A--End%20of%20hide%20similar%20entries;cursorTimestamp=2023-05-16T13:13:08.312782314Z?hl=zh-cn&project=sit323-23t1-huang-32449e6
 
 
 提交报告，记录所采取的步骤、使用的工具和配置以及遇到的任何挑战。
